@@ -817,3 +817,36 @@ img {
 .modal-send-btn:is(:hover, :focus) {
     background-color: var(--pressed-state-color);
 }
+
+.agreement-container {
+    margin-bottom: 24px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.agreement-label {
+    color: rgba(46, 47, 66, 0.40);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    }
+
+.agreement-link {
+    color: var(--primary-brand-color);
+}
+
+.agreement-container input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.40);
+}
+
+.agreement-container input[type="checkbox"]:checked {
+    fill: var(--pressed-state-color);
+    stroke-width: 1px;
+    stroke: var(--pressed-state-color);
+}
+
